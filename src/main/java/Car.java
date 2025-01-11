@@ -1,8 +1,8 @@
 public class Car {
     String name;
-    int speed;
+    double speed;
 
-    Car (String carName, int carSpeed) {
+    Car (String carName, double carSpeed) {
         name = carName;
         speed = carSpeed;
     }

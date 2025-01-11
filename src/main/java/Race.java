@@ -1,6 +1,6 @@
 public class Race {
     String carLeaderName;
-    int distanceOfLeader;
+    double distanceOfLeader;
 
     public Race() {
         this.carLeaderName = "";
@@ -8,7 +8,7 @@ public class Race {
     }
 
     public void leaderCalculations(Car carObject){
-        int distance = 24 * carObject.speed;
+        double distance = 24 * carObject.speed;
         if (distance>distanceOfLeader){
             carLeaderName = carObject.name;
         }
